@@ -3,8 +3,15 @@ import { useLocation, useNavigate } from 'react-router-dom';
 const Footer = () => {
   const location = useLocation();
   const navigate = useNavigate();
+
+  const footerStyle = {
+    backgroundColor: '#4c3c64', // Change this to the color you want
+    color: 'white', // Change this to the text color you prefer
+    padding: '20px', // Adjust padding as needed
+  };
+
   return (
-    <footer className="w-100 mt-auto bg-secondary p-4">
+    <footer style={footerStyle}>
       <div className="container text-center mb-5">
         {location.pathname !== '/' && (
           <button
@@ -17,15 +24,16 @@ const Footer = () => {
         <h4>
           Made with{' '}
           <span
-            className="emoji"
+            className="footer"
             role="img"
             aria-label="heart"
             aria-hidden="false"
           >
-            ❤️🎹❤️
+            ❤️
           </span>{' '}
           by Kal Parker.
         </h4>
+        2024
       </div>
     </footer>
   );

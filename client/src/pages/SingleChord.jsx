@@ -29,13 +29,13 @@ const SingleChord = () => {
           created on {Chord.createdAt}
         </span>
       </h3>
-      <div className="bg-light py-4">
+      <div className="bg- py-4">
         <blockquote
           className="p-4"
           style={{
             fontSize: '1.5rem',
             fontStyle: 'italic',
-            border: '2px dotted #1a1a1a',
+            border: '2px solid #1a1a1a',
             lineHeight: '1.5',
           }}
         >
@@ -46,7 +46,7 @@ const SingleChord = () => {
       <div className="my-5">
         <CommentList comments={Chord.comments} />
       </div>
-      <div className="m-3 p-4" style={{ border: '1px dotted #1a1a1a' }}>
+      <div className="m-3 p-4" style={{ border: '1px solid #1a1a1a' }}>
         <CommentForm ChordId={Chord._id} />
       </div>
     </div>
