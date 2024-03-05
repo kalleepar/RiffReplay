@@ -12,7 +12,7 @@ const Header = () => {
   return (
     <header style={{ backgroundColor: '#4c3c64' }} className="text-light mb-4 py-3 flex-row align-center">
 
-      <div className="container flex-row justify-space-between-lg justify-center align-center">
+      <div className="container flex-row justify-space-between-md justify-center align-center">
         <div>
           <Link className="text-light" to="/">
             <h1 className="m-0"></h1>
@@ -31,21 +31,36 @@ const Header = () => {
               <button className="btn btn-lg btn-light m-2" onClick={logout}>
                 Logout
               </button>
+              <Link className="btn btn-lg btn-dark m-1" to="http://127.0.0.1:8080">
+                Record
+                </Link>
+                <a href="https://app.midiano.com" className="btn btn-lg btn-dark m-1" target="_blank" rel="noopener noreferrer">
+                Play▶️
+              </a>
+              <Link className="btn btn-lg btn-dark m-1" to="http://127.0.0.1:5500/client/src/pages/player.html">
+                Listen🎧
+              </Link>
               
             </>
           ) : (
             <>
-              <Link className="btn btn-md btn-dark m-.5" to="/login">
+              <Link className="btn btn-lg btn-dark m-1" to="/login">
                 Login
               </Link>
-              <Link className="btn btn-md btn-dark m-1" to="/signup">
+              <Link className="btn btn-lg btn-dark m-1" to="/signup">
                 Signup
               </Link>
-              <Link className="btn btn-md btn-dark m-.5" to="/piano">
-                Piano
-              </Link>
-              <Link className="btn btn-md btn-dark m-1" to="/about">
+              <Link className="btn btn-lg btn-dark m-1" to="/about">
                 About
+              </Link>
+              <Link className="btn btn-lg btn-dark m-1" to="http://127.0.0.1:8080">
+                Record⏺️
+              </Link>
+              <a href="https://app.midiano.com" className="btn btn-lg btn-dark m-1" target="_blank" rel="noopener noreferrer">
+                Play▶️
+              </a>
+              <Link className="btn btn-lg btn-dark m-1" to="http://127.0.0.1:5500/client/src/pages/player.html">
+                Listen🎧
               </Link>
 
 

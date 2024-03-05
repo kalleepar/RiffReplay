@@ -22,16 +22,16 @@ const Footer = () => {
           </button>
         )}
         <h4>
-          Made with{' '}
+          
           <span
             className="footer"
             role="img"
             aria-label="heart"
             aria-hidden="false"
           >
-            ❤️
+            
           </span>{' '}
-          by Kal Parker.
+          Kal Parker
         </h4>
         2024
       </div>

@@ -42,7 +42,7 @@ const CommentForm = ({ ChordId }) => {
 
   return (
     <div>
-      <h4>What are your thoughts on these hords?</h4>
+      <h4>What are your thoughts on these chords?</h4>
 
       {Auth.loggedIn() ? (
         <>
