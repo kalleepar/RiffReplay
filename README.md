@@ -25,19 +25,21 @@ To begin application download necessary api and then 'npm install'
 next run npm run build, followed by npm run develop in the new vite folder to finally launch the site.
 
 
-![Alt text](https://github.com/kalleepar/EmployeeTrackerDeluxe/blob/main/assets/EmployeeTrackerDeluxeDemo.gif)
-![Alt text](https://github.com/kalleepar/EmployeeTrackerDeluxe/blob/main/assets/ETDsample1.jpg)
-![Alt text](https://github.com/kalleepar/EmployeeTrackerDeluxe/blob/main/assets/ETDsample2.jpg)
+![Alt text](https://github.com/kalleepar/RiffReplay/blob/main/client/src/assets/riffreplaysample.png)
+![Alt text](https://github.com/kalleepar/RiffReplay/blob/main/client/src/assets/riffreplaysample1.png)
+![Alt text](https://github.com/kalleepar/RiffReplay/blob/main/client/src/assets/riffreplaysample2.png)
+![Alt text](https://github.com/kalleepar/RiffReplay/blob/main/client/src/assets/riffreplaysample3.png)
+
 
 ## License 
 MIT
 
 ## Contributing 
 Kalleepar at:
-https://github.com/kalleepar/EmployeeTrackerDeluxe
+https://github.com/kalleepar/RiffReplay
 
 ## Tests
-Run 'node index.js' to test application.
+npm run develop to test server status.
 
 ## Contact Information 
 * GitHub Username: Kalleepar
